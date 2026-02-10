@@ -93,7 +93,6 @@ async def about_cmd(message: Message):
     await message.answer(
         f"Salom, {html.bold(message.from_user.full_name)}!\nMatn ➜ Ovoz bot"
     )
-
 users = {}
 
 async def ovoz(text, filename, voice):
@@ -149,7 +148,6 @@ async def handler(message: Message):
     finally:
         if os.path.exists(filename):
             os.remove(filename)
-
 async def main():
     bot = Bot(
         token=TOKEN,
@@ -157,7 +155,6 @@ async def main():
     )
     await defoult(bot)
     await dp.start_polling(bot)
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     asyncio.run(main())
