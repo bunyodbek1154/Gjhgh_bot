@@ -1,2 +1,0 @@
-# Gjhgh_bot
-Ksjdjsjekdjsjdjskjejsjekwjk9wokwjskakwjskakekjskskjdsjjej jejwjejejjejejeje   
